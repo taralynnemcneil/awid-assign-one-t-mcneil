@@ -287,7 +287,7 @@ main {
     color: #838c52;
 }
 
-/* If you don't want the footer to be responsive, remove these media queries */
+/* responsive footer */
 
 @media (max-width: 880px) {
 
