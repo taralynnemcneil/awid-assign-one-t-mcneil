@@ -1,0 +1,309 @@
+
+*{
+	padding:0;
+	margin:0;
+}
+
+html{
+	background-color: #eaf0f2;
+}
+
+html, body, main {
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+/* ======================= Nav Styles ======================= */
+#customNav.navbar-default .navbar-brand {
+    color: rgba(119, 119, 119, 1);
+}
+
+#customNav.navbar-default {
+    font-size: 14px;
+    background-color: rgba(62, 64, 68, 1);
+    border-bottom-width: 0px;
+}
+
+#customNav.navbar-default .navbar-nav>li>a {
+    color: rgba(131, 140, 82, 1);
+    background-color: rgba(248, 248, 248, 0);
+}
+
+#customNav.navbar-default .navbar-nav>li>a:hover,
+#customNav.navbar-default .navbar-nav>li>a:focus {
+    color: #f8f8f8;
+    background-color: rgba(131, 140, 82, 1);
+}
+
+#customNav.navbar-default .navbar-nav>.active>a,
+#customNav.navbar-default .navbar-nav>.active>a:hover,
+#customNav.navbar-default .navbar-nav>.active>a:focus {
+    color: #f8f8f8;
+    background-color: #647437;
+}
+
+#customNav.navbar-default .navbar-toggle {
+    background-color: #838c52;
+}
+
+#customNav.navbar-default .navbar-toggle:hover,
+#customNav.navbar-default .navbar-toggle:focus {
+    border-color: #838c52;
+}
+
+#customNav.navbar-default .navbar-toggle .icon-bar {
+    background-color: #f8f8f8;
+}
+
+#customNav.navbar-default .navbar-toggle:hover .icon-bar,
+#customNav.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #f8f8f8;
+}
+
+#logo {
+    margin-top: -15px;
+}
+/* ======================= End Nav Styles ======================= */
+
+/* ======================= Hero Image Styles ======================= */
+/* Hero image */
+#heroimage{ 
+    width: 100%;
+    height: 100vh;  
+    background:url(../img/banner.jpg) center center no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#callAction {
+    padding-top: 40vh;
+} 
+
+/* call to action button */
+.btn-success {
+    background-color: rgba(131, 140, 82, 1);
+    border-color: rgba(62, 64, 68, 1);
+    font-family: 'Raleway', sans-serif;
+}
+
+.btn-success:hover {
+    background-color: #647437;
+    border-color: rgba(62, 64, 68, 1);
+    color: #f8f8f8;
+}
+
+/* ======================= End Hero Image Styles ======================= */
+
+/* ======================= Content Styles ======================= */
+
+main {
+    padding: 20px 0 30px;
+}
+
+#worms, #leeches, #insects {
+    padding-top: 20px;
+
+}
+
+.nav-tabs li a {
+    color: rgba(131, 140, 82, 1);
+}
+
+#aboutUs {
+    padding: 60px 0;
+    border-bottom: 0.5px solid lightgrey;
+}
+
+#liveBait {
+    padding: 60px 0;
+    border-bottom: 0.5px solid lightgrey;
+}
+
+#liveBait > p {
+    padding: 20px;
+}
+
+#liveBait > h2 {
+    padding: 0 20px;
+}
+
+#channel {
+    padding: 60px 0;
+}
+
+/* ======================= Content Styles ======================= */
+
+/* ======================= Footer Styles ======================= */
+.footer-distributed{
+	background-color: rgba(62, 64, 68, 1);
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px "Raleway", sans-serif;
+
+	padding: 55px 50px;
+    margin-top: 40px; 
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px;
+	margin: 0;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-links a:hover {
+    color: #838c52;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #647437;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+.footer-distributed .footer-icons a:hover {
+    color: #838c52;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
+/* ======================= End Footer Styles ======================= */
